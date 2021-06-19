@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="wpf_design_test.UserControls.UC_FileTemplate"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:wpf_design_test.UserControls"
+             mc:Ignorable="d" Height="74" Width="234.5">
+    <Border BorderThickness="0" Background="White"
+            CornerRadius="7" Margin="0,0,0,1">
+        <Border.Effect>
+            <DropShadowEffect/>
+        </Border.Effect>
+        <Grid>
+            <Image HorizontalAlignment="Left" Height="53" VerticalAlignment="Top" Width="52" Margin="10,10,0,0" Source="/wpf_design_test;component/Assets/icons/files_icon/mp3.png"/>
+            <Label Content="Template_File_Name.exten" HorizontalAlignment="Left" Margin="67,10,0,0" VerticalAlignment="Top" Width="157"/>
+            <Label Content="0 Кб" HorizontalAlignment="Left" Margin="67,37,0,0" VerticalAlignment="Top" Width="157" HorizontalContentAlignment="Right"/>
+        </Grid>
+    </Border>
+</UserControl>

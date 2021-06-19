@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_design_test"
+        xmlns:UserControls="clr-namespace:wpf_design_test.UserControls" x:Class="wpf_design_test.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="#FF222431">
+    <Grid>
+        <UserControls:UC_FileTemplate HorizontalAlignment="Left" Height="74" Margin="10,10,0,0" VerticalAlignment="Top" Width="234"/>
+        <UserControls:UC_CustomButtons HorizontalAlignment="Left" Height="150" Margin="382,10,0,0" VerticalAlignment="Top" Width="264"/>
+        <UserControls:UC_FlatTemplateCard HorizontalAlignment="Left" Height="auto" Margin="10,118,0,0" VerticalAlignment="Top" Width="auto"/>
+        <UserControls:UC_FileViewTemplate HorizontalAlignment="Left" Margin="249,10,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
